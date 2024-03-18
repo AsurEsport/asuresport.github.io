@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+:root {
+    --primary-color: #1f2a4e;
+    --secondary-color: #ada2af;
+    --third-color: #d6d1d7;
+    --selector-color: #da0a0b;
+    --white: #fefefe;
+}
+
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: "Teko", sans-serif;
+}
+
+footer {
+    margin: 5px;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 12px 0;
+    text-align: center;
+}
+
+ul {
+    text-decoration: none;
+    display: inline;
+    padding: 20px 60px;
+}
+
+a:hover {
+    color: var(--selector-color)
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}

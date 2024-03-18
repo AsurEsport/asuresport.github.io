@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Roster</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            padding: 45px;
+            display: flex;
+        }
+
+        .card {
+            background-color: var(--third-color);
+            width: 214px;
+            /* height: 455px; */
+            border-radius: 20px;
+            margin: 15px 15px;
+            padding: 0 0 20px 0;
+            /* overflow: hidden; */
+        }
+
+        .imgage img {
+            padding: 6px 20px;
+        }
+
+        .card:hover {
+            transition: all 300ms ease-in;
+            scale: 1.125;
+        }
+        .card{
+            transition: all 300ms ease-out;
+            -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+        }
+        .content {
+            padding: 12px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+        }
+
+        .content p {
+            font-size: 15px;
+        }
+
+        h2:hover {
+            transition: 1.3s;
+            color: var(--selector-color);
+        }
+
+        .capusles {
+            padding: 0 13px;
+        }
+
+        .capusles span {
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 2px 8px;
+            color: gray;
+            font-size: 12px;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        span:hover {
+            color: var(--selector-color);
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button button {
+            padding: 2px 9%;
+            border-radius: 23px;
+            background-color: var(--secondary-color);
+            color: var(--third-color);
+            font-size: 12px;
+            border: none;
+        }
+
+        .button button:hover {
+            background-color: var(--primary-color);
+            color: var(--selector-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul><a href="/AsurEsports/home.html" draggable="false">Home</a></ul>
+            <ul><a href="/AsurEsports/about.html" draggable="false">About</a></ul>
+            <ul><a href="/AsurEsports/players.html" draggable="false">Players</a></ul>
+            <ul><a href="/AsurEsports/contact.html" draggable="false">Contact</a></ul>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <div class="imgage">
+                <img src="/AsurEsports/Res/Players/m0nster.png" alt="m0nster" width="220px" draggable="false">
+            </div>
+
+            <div class="capusles">
+                <span>Leader</span>
+                <span>Founder</span>
+            </div>
+
+            <div class="content">
+                <h2>VAMPIRE</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt accusamus ducimus optio nemo
+                    pariatur natus cum, tempore illum doloremque aliquam incidunt sint repudiandae quia perferendis
+                    ad tenetur enim distinctio praesentium?</p>
+            </div>
+
+            <div class="button"><button>Read More</button></div>
+        </div>
+
+        <div class="card">
+            <div class="imgage">
+                <img src="/AsurEsports/Res/Players/m0nster.png" alt="m0nster" width="230px" draggable="false">
+            </div>
+
+            <div class="capusles">
+                <span>Co-leader</span>
+                <span>Founder</span>
+            </div>
+
+            <div class="content">
+                <h2>MØNSTER</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt accusamus ducimus optio nemo
+                    pariatur natus cum, tempore illum doloremque aliquam incidunt sint repudiandae quia perferendis
+                    ad tenetur enim distinctio praesentium?</p>
+            </div>
+
+            <div class="button"><button>Read More</button></div>
+        </div>
+
+        <div class="card">
+            <div class="imgage">
+                <img src="/AsurEsports/Res/Players/m0nster.png" alt="m0nster" width="230px" draggable="false">
+            </div>
+
+            <div class="capusles">
+                <span>Player 3</span>
+            </div>
+
+            <div class="content">
+                <h2>Player 3</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt accusamus ducimus optio nemo
+                    pariatur natus cum, tempore illum doloremque aliquam incidunt sint repudiandae quia perferendis
+                    ad tenetur enim distinctio praesentium?</p>
+            </div>
+
+            <div class="button"><button>Read More</button></div>
+        </div>
+
+        <div class="card">
+            <div class="imgage">
+                <img src="/AsurEsports/Res/Players/m0nster.png" alt="m0nster" width="230px" draggable="false">
+            </div>
+
+            <div class="capusles">
+                <span>Player 4</span>
+            </div>
+
+            <div class="content">
+                <h2>Player 4</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt accusamus ducimus optio nemo
+                    pariatur natus cum, tempore illum doloremque aliquam incidunt sint repudiandae quia perferendis
+                    ad tenetur enim distinctio praesentium?</p>
+            </div>
+
+            <div class="button"><button>Read More</button></div>
+        </div>
+
+    </main>
+</body>
+
+</html>
